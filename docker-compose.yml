@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  carcontrole:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: carcontrole_app
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    environment:
+      - NODE_ENV=production
