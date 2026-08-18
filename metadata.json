@@ -1,0 +1,8 @@
+{
+  "name": "VitrineHub SaaS - Plataforma de Lojas & Catálogos",
+  "description": "Plataforma SaaS de vitrines e lojas virtuais para 5 nichos de negócios (Produtos, Serviços, Imóveis, Veículos e Locadoras), com painel Master para gestão de clientes, controle de mensalidades recorrentes, fechamento via WhatsApp e propostas formais por e-mail.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
