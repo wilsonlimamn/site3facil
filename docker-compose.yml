@@ -17,7 +17,7 @@ services:
     container_name: vitrinehub_app
     restart: always
     ports:
-      - "3000:3000"
+      - "3001:3000"
     environment:
       - DATABASE_URL=postgresql://postgres:secretpassword@db:5432/vitrinehub_db
     depends_on:
